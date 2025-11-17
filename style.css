@@ -1,0 +1,78 @@
+body {
+  font-family: "Cairo", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  transition: background-color 0.4s ease;
+}
+
+div[align="center"] {
+  background-color: #e6f0ff;
+  color: #003366;
+  padding: 15px;
+  border-bottom: 4px solid #3399ff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: all 0.4s ease;
+}
+
+div[align="center"]:hover {
+  background-color: #d9ebff;
+}
+
+img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+  padding: 6px 10px;
+  background-color: #b3d9ff;
+  border-radius: 5px;
+  margin: 0 3px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: #66b3ff;
+  color: #001a33;
+  transform: scale(1.1);
+}
+
+form {
+  background: #f9f9f9;
+  width: 60%;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #003366;
+  transition: border-color;
+}
